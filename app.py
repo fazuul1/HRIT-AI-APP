@@ -4,7 +4,6 @@ import google.generativeai as genai
 # Page Configuration
 st.set_page_config(page_title="HRIT Assistant Hub", page_icon="🏥", layout="centered")
 
-# Specialized System Instructions for HRIT
 HRIT_SYSTEM_PROMPT = """
 You are an expert AI Assistant specialized in Health Records and Information Technology (HRIT), Health Informatics, and Health Data Management.
 Your core capabilities include:
